@@ -1,0 +1,158 @@
+body {
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em; 
+}
+
+h1 {
+    font-size:1.4em;
+    font-weight: bold;
+    margin: 30px 0;
+    width: 50%;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size:1.1em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+a   {
+    text-decoration: none;
+    color: #000
+}
+a:hover {
+    color: #e6a563;
+}
+
+a .read:hover {
+    color: black;
+}
+
+nav {    
+    background-color: #efefef;
+    margin: 10px;    
+}
+
+nav img {
+    width: 250px;
+}
+
+nav ul {    
+    list-style-type: none;
+}
+
+.button {
+    background-color: #e6a563;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.nav li:first-child {
+    margin-right: auto;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.hero {
+    background-color: #ffcf83;
+    display: flex;
+    padding: 2em;  
+    
+}
+
+#vibe {
+    margin-right: 6em;
+}
+
+.features-container {
+    display: flex;
+    gap: 1.5em;    
+    margin: 1em 1.5em 1.5em 1.5em;
+}
+
+.feature-block {
+    width: 32%;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+}
+
+.read {
+    color: #e6a563
+}
+
+.testimonials {
+    background-color: #222e50;
+}
+
+.testimonial-block {
+    background-color: white;
+    text-align: center;
+    margin: 0 2em 2em 2em;
+    width: 32%;
+    padding: 1.2em;
+}
+
+.test-container {
+    display: flex;
+    
+}
+
+#testtitle {
+    color: white;
+    padding-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.team-container {
+    display: flex;
+    
+}
+
+.team-block {
+    width: 20%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 40px 0 50px 0;    
+    width: 100%;
+}
+
+footer img {
+    width: 35px;
+}
+
+#smedia {
+    margin-bottom: 20px;
+}
