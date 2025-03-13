@@ -102,6 +102,10 @@ nav ul {
     text-align: center;
 }
 
+.feature-block img {
+    width: 92%;
+}
+
 .read {
     color: #e6a563
 }
