@@ -78,21 +78,23 @@ nav ul {
     margin: auto;
 }
 
+.herotop {
+    background-color: #ffcf83;         
+}
+
 .hero {
-    background-color: #ffcf83;
     display: flex;
-    padding: 2em;  
-    
+    padding: 2.5em; 
 }
 
 #vibe {
     margin-right: 6em;
 }
 
-.features-container {
+.features {
     display: flex;
     gap: 1.5em;    
-    margin: 1em 1.5em 1.5em 1.5em;
+    margin: auto;
 }
 
 .feature-block {
@@ -122,8 +124,9 @@ nav ul {
     padding: 1.2em;
 }
 
-.test-container {
-    display: flex;    
+.test {
+    display: flex; 
+    margin: auto;   
 }
 
 #testtitle {
@@ -137,7 +140,7 @@ nav ul {
 
 .team-container {
     display: flex;
-    
+    margin: auto;
 }
 
 .team-block {
